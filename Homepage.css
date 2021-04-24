@@ -1,6 +1,6 @@
 .homeclass {
     text-align: center;
-    font-family:Arial;
+    font-family:Verdana, Arial, Tahoma, Serif;
     color: rgb(241, 233, 233);
     vertical-align:baseline;
     
@@ -12,7 +12,8 @@
 }
 
 h1{
-    font-weight: bolder;
+    font-weight:bolder;
+    text-decoration: black;
     font-size:100px;
     text-align: left;
 }

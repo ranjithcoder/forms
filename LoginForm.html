@@ -4,26 +4,28 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="LoginForm.css">
     <title>sign up page</title>
 </head>
 <body>
     <!-- first name,last name,,gmail,,gender,data of birth,country,phone number,password,submit button,reset button,-->
+    <div class="loginclass">
     <h2>Signup</h2>
     <form>
         <label for="fname">First name</label><br>
-        <input type="text" id="fname" name="fname"><br>
+        <input class="inputclass" type="text" id="fname" name="fname"><br>
         <label for="lname">Last name</label><br>
-        <input type="text" id="lname" name="lname"><br>
+        <input class="inputclass" type="text" id="lname" name="lname"><br>
         <label for="gmail">Email id</label><br>
-        <input type="email" id="gmail" name="gmail"><br>
+        <input class="inputclass" type="email" id="gmail" name="gmail"><br>
         <label for="gender">Gender</label><br>
-        <input type="radio" id="male" name="gender" value="male">
+        <input class="inputclass" type="radio" id="male" name="gender" value="male">
         <label for="male">Male</label><br>
         <input type="radio" id="female" name="gender" value="female">
         <label for="female">Female</label><br>
         <input type="radio" id="other" name="gender" value="other">
         <label for="other">Other</label><br>
-        <label for="DOB">Date of Birth</label><br>
+        <label for="DOB">Date of Birth:</label><br>
         <input type="date" data-date-inline-picker="true"><br>
         <label for="country">Country</label><br>
         <select id="country" name="country">
@@ -246,12 +248,13 @@
         </optgroup>
          </select><br>
          <label for="phoneno">Phone number</label><br>
-         <input type="number" id="phoneno" name="phoneno"><br>
+         <input class="inputclass" type="number" id="phoneno" name="phoneno"><br>
          <label for="password">Password</label><br>
-         <input type="password" id="password" name="password"><br><br>
+         <input class="inputclass" type="password" id="password" name="password"><br><br>
          <input type="submit" id="submit" name="submit">
          <input type="reset" id="reset" name="reset">
 
     </form>
+    </div>
 </body>
 </html>
