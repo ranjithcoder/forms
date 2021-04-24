@@ -1,0 +1,18 @@
+.homeclass {
+    text-align: center;
+    font-family: sans-serif;
+    color: red;
+    vertical-align:baseline;
+    
+}
+*{
+    
+    background: url(https://insidesmallbusiness.com.au/wp-content/uploads/2017/09/Welcome.jpg) no-repeat center fixed;
+    background-size: cover;
+}
+
+h1{
+    font-weight: bolder;
+    font: size 520px;
+}
+
