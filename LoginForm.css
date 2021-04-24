@@ -40,14 +40,15 @@ select {
 }
  input[type=submit], input[type=reset] {
     background-color: #e60e0e;
-    border: none;
-    color: rgb(192, 180, 180);
+    border-color: black;
+    color: rgb(211, 0, 0);
     padding: 16px 32px;
     text-decoration: none;
+    font-weight: bolder;
     margin: 4px 2px;
     cursor: pointer;
   }
 *{
-    background-color: yellow;
+    background-image: url(https://wallpapercave.com/wp/wp6981477.jpg);
     
 }
