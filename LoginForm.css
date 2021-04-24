@@ -39,7 +39,7 @@ select {
     
 }
  input[type=submit], input[type=reset] {
-    background-color: #4CAF50;
+    background-color: #e60e0e;
     border: none;
     color: white;
     padding: 16px 32px;
@@ -48,6 +48,6 @@ select {
     cursor: pointer;
   }
 *{
-    background-color: red;
+    background-color: yellow;
     
 }
